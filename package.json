@@ -1,0 +1,16 @@
+{
+  "name": "react-media-player",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd react-media-player-api && npm run dev",
+    "client": "cd react-media-player-client && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}

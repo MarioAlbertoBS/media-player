@@ -1,0 +1,31 @@
+{
+  "name": "react-media-player",
+  "version": "1.0.0",
+  "description": "React Media Player, Google Drive Auth API and NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts"
+  },
+  "author": "Mario Bojorquez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "crypto-js": "^4.1.1",
+    "express": "^4.17.2",
+    "googleapis": "^92.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.0",
+    "@types/express": "^4.17.13",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.5.0",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
